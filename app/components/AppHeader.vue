@@ -39,7 +39,7 @@ const { header } = useAppConfig()
       #left
     >
       <NuxtLink :to="header?.to || '/'">
-        <LogoPro class="w-auto h-6 shrink-0" />
+        <Logo class="w-20 h-auto shrink-0" />
       </NuxtLink>
 
       <TemplateMenu />
