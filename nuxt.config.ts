@@ -22,6 +22,9 @@ export default defineNuxtConfig({
           searchDepth: 1
         }
       }
+    },
+    preview: {
+      api: 'https://api.nuxt.studio'
     }
   },
 
